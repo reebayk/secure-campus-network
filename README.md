@@ -13,8 +13,6 @@ A **Cisco Packet Tracer** project demonstrating the design, implementation, and 
 
 # 🎥 Demo
 
-> *(Add a short GIF demonstrating the topology, successful pings, blocked traffic, and Packet Tracer simulation.)*
-
 <p align="center">
 <img src="screenshots/demo.gif" width="95%">
 </p>
@@ -24,7 +22,7 @@ A **Cisco Packet Tracer** project demonstrating the design, implementation, and 
 # 📸 Network Topology
 
 <p align="center">
-<img src="screenshots/topology.png" width="95%">
+<img src="screenshots/network.png" width="95%">
 </p>
 
 ---
@@ -61,13 +59,6 @@ A **Cisco Packet Tracer** project demonstrating the design, implementation, and 
 - Basic Network Security
 
 ---
-
-# 🏗️ Network Architecture
-
-<p align="center">
-  <img src="screenshots/network.png" alt="Network Architecture" width="90">
-</p>
-
 ---
 
 # 🏷️ VLAN Assignment
@@ -88,7 +79,7 @@ A **Cisco Packet Tracer** project demonstrating the design, implementation, and 
 
 | Successful Inter-VLAN Routing | ACL Security Enforcement |
 |-------------------------------|--------------------------|
-| ![](screenshots/ping-success.png) | ![](screenshots/ping-blocked.png) |
+| ![](screenshots/image.png) | ![](screenshots/ping-blocked.png) |
 
 ---
 
@@ -118,15 +109,6 @@ Implemented policies include:
 | ![](screenshots/interfaces.png) | ![](screenshots/acl.png) |
 
 ---
-
-# 📦 Packet Flow Simulation
-
-<p align="center">
-<img src="screenshots/simulation.png" width="90%">
-</p>
-
-Simulation Mode was used to visualize packet traversal across VLANs and verify successful routing as well as ACL-based packet filtering.
-
 ---
 
 # 📂 Project Structure
@@ -135,7 +117,6 @@ Simulation Mode was used to visualize packet traversal across VLANs and verify s
 .
 ├── screenshots/
 │   ├── demo.gif
-│   ├── topology.png
 │   ├── vlan-brief.png
 │   ├── trunk.png
 │   ├── interfaces.png
@@ -143,7 +124,7 @@ Simulation Mode was used to visualize packet traversal across VLANs and verify s
 │   ├── ping-success.png
 │   ├── ping-blocked.png
 │   ├── network.png
-│   └── simulation.png
+│   └── maju-logo.png
 │
 ├── University-Campus-Network.pkt
 └── README.md
